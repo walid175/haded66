@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Responsive</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+      <div class="navbar-logo"><img class="logo" src="./logo.png" alt=""></div>
+      <ul class="nav-links">
+        <li><a href="#home">الصفحة الرئيسية</a></li>
+        <li><a href="#about-uss">من نحن</a></li>
+        <li><a href="#services">خدماتنا</a></li>
+        <li><a href="#projects">المعرض</a></li>
+        <li><a href="#">شهادات العملاء</a></li>
+        <li><a href="#maps">موقع شركة</a></li>
+      </ul>
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+
+
+
+<!-- Header with video background -->
+<header class="header" id="home" >
+  <div class="video-background" >
+      <video autoplay loop muted >
+          <source src="./video1.mp4" type="video/mp4" >
+          <!-- يمكنك إضافة مصادر فيديو أخرى إذا لزم الأمر -->
+      </video>
+  </div>
+  <div class="header-content">
+      <h1 style="color: black;">الخرسانية </h1>
+      <div class="description-container">
+        <p style="color: black;" id="description">
+          شركتنا الخرسانية متخصصة في بيع الحديد المستخدم في البناء بجميع أنواعه، ونلتزم بتقديم أفضل جودة وخدمة لعملائنا الكرام. نحن نقدم . منتجات تتناسب مع احتياجات المشاريع الصغيرة والكبيرة على حد سواء.
+        </p>
+        <button id="toggle-btn">أقرأ المزيد</button>
+      </div>
+      
+      
+  </div>
+</header>
+
+<section id="about-uss" class="about-uss">
+  <div class="container"  style="background-color: rgb(27, 21, 66); border-radius: 40px;">
+      <h2  style="background-color: aliceblue; border-radius: 15px; border: solid rgb(27, 21, 66);">من نحن</h2>
+      <p class="about-text" >
+        نحن الشركة الخرسانية هي الخيار الأمثل لتلبية جميع احتياجاتك من أنواع الحديد في المملكة العربية السعودية. نحن نقدم مجموعة شاملة من منتجات الحديد، بما في ذلك حديد التسليح، الحديد الإنشائي، والحديد الصناعي، بجودة استثنائية وأسعار تنافسية تلبي متطلبات المشاريع المختلفة. 
+
+نسعى جاهدين لتوفير حلول مبتكرة تلبي توقعات عملائنا، مع التركيز على الدقة والسرعة في التنفيذ، لضمان نجاح مشاريعك بكفاءة عالية.  
+
+بفضل فريقنا المحترف والمتخصص، وتقنياتنا الحديثة، نعمل على تحسين تجربة العملاء وتعزيز تواجدنا في السوق السعودي، مما يجعلنا الخيار الأمثل للعديد من الشركات والمقاولين.  
+
+اعمل معنا لتكون جزءاً من رحلة النجاح والتميز في مجال حديد البناء والتشييد.
+<br><br>
+<strong style="text-align: right;"><u>لماذا نحن؟</u></strong>
+<br>
+
+<mark>جودة الحديد:</mark>
+<br>
+نقدم لكم أجود أنواع الحديد المصنّع وفق أعلى المعايير الصناعية لضمان القوة والمتانة.
+<br>
+<mark>تجربة عملاء متميزة:</mark>
+<br>
+نسعى لتقديم خدمة عملاء استثنائية، من الاستشارات الفنية إلى التوصيل السريع.
+<br>
+
+<mark>أسعار تنافسية:</mark>
+<br>
+نحن نضمن لكم أسعار تنافسية مع الحفاظ على الجودة العالية التي تلبي احتياجاتكم.
+<br>
+<mark>تنوع المنتجات:</mark> <br>لدينا مجموعة واسعة من أنواع الحديد، بما في ذلك حديد التسليح، الحديد الإنشائي، وغيرها لتلبية جميع متطلبات مشاريعكم.
+<br>
+<mark>توفر دائم:</mark><br>
+مع شبكة توزيع واسعة في المملكة، نقدم لكم المنتجات في الوقت المحدد وبأعلى مستويات الكفاءة
+<br>
+<mark>خبرة طويلة: </mark><br>
+خبرة تزيد عن  عدت سنوات في مجال بيع الحديد، مما يعزز ثقتكم بنا.
+      </p>
+  
+  </div>
+  <div class="slider-container">
+      <div class="slider" >
+          <video style="border:solid black;" src="./istockphoto-1307828031-640_adpp_is.mp4" style="border-radius: 30px; margin-top: 40px;" muted autoplay loop preload="auto" class="slider-image">
+      </div>
+  </div>
+</section>
+
+
+<section class="steel-section" style="background-color: rgb(27, 21, 66); border-radius: 40px;">
+  <h2 class="section-title"  style="background-color: aliceblue; border-radius: 12px; border: solid rgb(27, 21, 66);">أنواع حديد التسليح</h2>
+  <div class="steel-container">
+      <!-- نوع 1 -->
+      <div class="steel-item" id="services">
+        <i class="fas fa-shield-alt"></i> <!-- أيقونة حديد التسليح عالي المقاومة -->
+        <h3>حديد التسليح عالي المقاومة</h3>
+        <p>قوي ومتين للأبراج والجسور. يُستخدم حديد التسليح عالي المقاومة في مرحلة **صب الخرسانة** لتدعيم العناصر الهيكلية مثل الأعمدة، الجسور، والأساسات.  
+          استدامته تكمن في قوته العالية ومقاومته للتآكل، مما يطيل عمر المنشآت ويقلل من الصيانة..</p>
+    </div>
+
+    
+
+      <!-- نوع 3 -->
+      <div class="steel-item">
+        <i class="fas fa-water"></i> <!-- أيقونة حديد التسليح المقاوم للصدأ -->
+        <h3>حديد التسليح المقاوم للصدأ</h3>
+        <p>مثالي للمشاريع البحرية. مقاوم عالي للصدأ حتى في الظروف القاسية.</p>
+    </div>
+    <div class="steel-item">
+      <i class="fas fa-water"></i> <!-- أيقونة حديد التسليح المقاوم للصدأ -->
+      <h3>حديد الهيكل الإنشائي (Structural Steel):</h3>
+      <p>
+
+        الاستخدام: يُستخدم في بناء الهياكل المعدنية للمباني، الجسور، المنشآت الصناعية. يشمل العوارض الحديدية (I-Beams)، والزوايا (Angles)، والقنوات (Channels).
+        الأنواع: يتوفر بأشكال مختلفة مثل العوارض على شكل I أو H أو U، والزوايا الحديدية (Angles) بأبعاد متنوعة.
+
+        </p>
+  </div>
+
+
+      <!-- نوع 4 -->
+      <div class="steel-item">
+          <i class="fas fa-mountain"></i> <!-- أيقونة شبك حديد التسليح -->
+          <h3>شبك حديد التسليح</h3>
+          <p>يستخدم لتعزيز البلاطات والأسقف. شبك حديد التسليح هو شبكة من القضبان الحديدية الملحومة أو المترابطة تُستخدم لتعزيز الخرسانة.  
+يُستخدم في الأرضيات، الجدران، والأساسات لتوزيع الأحمال وتقليل التشققات..</p>
+      </div>
+
+      <!-- نوع 5 -->
+      
+  
+
+
+      <div class="steel-item">
+        <i class="fas fa-cogs"></i> <!-- أيقونة حديد التسليح المجلفن -->
+        <h3>حديد التسليح المجلفن</h3>
+        <p>مقاوم للصدأ والتآكل، مثالي للمشاريع الساحلية. حديد التسليح المجلفن هو حديد مغطى بطبقة من الزنك لحمايته من التآكل والصدأ.  
+يُستخدم في المنشآت المعرضة للرطوبة العالية أو البيئات القاسية،.</p>
+    </div>
+  <div class="steel-item">
+    <i class="fas fa-water"></i> <!-- أيقونة حديد التسليح المقاوم للصدأ -->
+    <h3>      حديد الكربون المنخفض (Mild Steel):
+    </h3>
+    <p>
+
+
+  للأعمال الإنشائية الخفيفة مثل الأبواب، النوافذ، الأسوار، وبعض العناصر الزخرفية.
+النوع: يتميز بمرونته وسهولة التشكيل، وهو شائع في التطبيقات التي لا تحتاج إلى قوة عالية.
+
+      </p>
+</div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<div class="floating-buttons">
+  <a href="tel:+966509053548" target="_blank" class="fab-item" title="اتصال">
+    <i class="fas fa-phone"></i>
+  </a>
+  <a href="https://wa.me/+966509053548" target="_blank" class="fab-item" title="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.instagram.com/yourprofile" target="_blank" class="fab-item" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.snapchat.com/add/yourusername" target="_blank" class="fab-item" title="Snapchat">
+    <i class="fab fa-snapchat"></i>
+  </a>
+</div>
+
+
+
+
+
+<section id="q" >
+    <h1 id="projects" style="text-align: center; margin: 20px;">معرض حديد البناء</h1>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item" >
+                <img src="./istockphoto-1084393454-1024x1024.jpg" alt="حديد تسليح 12 مم">
+                <div class="info" >
+                    <h3>حديد تسليح 12 مم</h3>
+                    <p>نوع: عالي الجودة</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./istockphoto-486000720-1024x1024.jpg" alt="حديد تسليح 12 مم">
+              <div class="info">
+                  <h3>حديد تسليح 12 مم</h3>
+                  <p>نوع: عالي الجودة</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./istockphoto-670685154-1024x1024.jpg" alt="حديد تسليح 12 مم">
+            <div class="info">
+                <h3>حديد تسليح 12 مم</h3>
+                <p>نوع: عالي الجودة</p>
+            </div>
+        </div>
+            <div class="carousel-item">
+                <img src="./istockphoto-1225039948-1024x1024.jpg" alt="حديد تسليح 16 مم">
+                <div class="info">
+                    <h3>حديد تسليح 16 مم</h3>
+                    <p>نوع: مقاومة عالية</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./istockphoto-2171384372-1024x1024.jpg" alt="حديد تسليح 20 مم">
+                <div class="info">
+                    <h3>حديد تسليح 20 مم</h3>
+                    <p>نوع: متوسط السماكة</p>
+                </div>
+            </div>
+            <!-- يمكنك إضافة المزيد من العناصر بنفس التنسيق -->
+        </div>
+    </div>
+ 
+
+
+
+
+<!-- شهادات -->
+
+
+    <!-- شهادة 1 -->
+
+
+    <!-- شهادة 2 -->
+   
+
+    <!-- شهادة 3 -->
+  
+   <div id="maps">
+        <div class="containerr">
+            <h1>موقع الشركة</h1>
+            <img src="./map.png" alt="Map of the Company" class="map-image">
+            <a href="https://maps.app.goo.gl/5wae1iVrJVoCijgp6" target="_blank" class="button">زور موقعنا </a>
+        </div>
+ 
+      </div >
+
+<!-- keywords -->
+<section class="keywords-section">
+  <div class="keywords-list">
+    <h3>:الكلمات المفتاحية المتعلقة بالحديد</h3>
+<ul>
+  <li><p>حديد تسليح السعودية</b></li>
+  <br>
+<li style="text-align: center;"><b>بيع حديد في الرياض</b></li>
+<br>
+<li style="text-align: center;"><b >حديد إنشائي في السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >مواد بناء حديدية</b></li>
+<br>
+<li style="text-align: center;"><b >أسعار حديد البناء في السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >حديد مقاوم للصدأ السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >تجارة حديد في السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >توريد حديد للمقاولات</b></li>
+<br>
+<li style="text-align: center;"><b >تصدير حديد إلى المملكة</b></li>
+<br>
+<li style="text-align: center;"><b >مصانع حديد في السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >حديد بناء السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >أنواع الحديد في السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >حديد عالي الجودة في السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >حديد مستورد في السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >حديد للجسور والسدود السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >حديد صناعي في السعودية</b></li>
+<br>
+<li style="text-align: center;"><b >بيع حديد التسليح بالجملة</b></li>
+<br>
+<li style="text-align: center;"><b>حلول الحديد للمشاريع الإنشائية</b></li>
+<br>
+<li style="text-align: center;"><b >حديد متخصص في الأعمال الكبيرة</b></li>
+<br>
+<li style="text-align: center;"><b >قطع حديد حسب الطلب في السعودية</b></li>
+
+</ul>
+</div>
+
+</section>
+   
+    
+
+
+
+
+
+<footer class="footer">
+  <div class="container">
+      <div class="footer-links">
+          <ul>
+              <li><a href="#home">الرئيسية</a></li>
+              <li><a href="#about-uss">من نحن</a></li>
+              <li><a href="#services">خدماتنا</a></li>
+    
+              <li><a href="#projects">المعرض</a></li>
+              <li><a href="#maps">موقع شركة</a></li>
+          </ul>
+          
+    </div>
+    <div class="footer-section social">
+      <h3 >تابعنا على</h3>
+      <ul>
+          <li ><a  style="text-decoration: none; color:whitesmoke;" href="#">فيسبوك</a></li>
+          <li><a  style="text-decoration: none; color:whitesmoke;" href="#">سنابشات</a></li>
+          <li><a  style="text-decoration: none; color:whitesmoke;" href="#">إنستغرام</a></li>
+      </ul>
+  </div>
+      </div>
+      <div class="footer-policy">
+          <p>© 2024 الخرسانية.الحقوق محفوظة.</p>
+      </div>
+  </div>
+</footer>
+
+
+      
+  <script src="./script.js"></script>
+</body>
+</html>
